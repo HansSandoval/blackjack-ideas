@@ -1,0 +1,17 @@
+Para implementar este juego de Live Football Studio en Java, podrías seguir los siguientes pasos:
+
+Crea una clase Card para representar cada carta del juego. Esta clase debería tener un atributo para el valor de la carta
+(un número entero entre 2 y 14, donde 14 representa al as) y otro atributo para el palo (por ejemplo, "corazones", "diamantes", "tréboles" o "picas"). 
+También puedes agregar un método para comparar dos cartas y determinar cuál es más alta.
+
+Crea una clase Deck para representar el mazo de cartas. Esta clase debería tener una lista de cartas y métodos para crear el mazo,
+barajar las cartas y repartir una carta.
+
+Crea una clase Hand para representar la mano de cada equipo. Esta clase debería tener una lista de cartas y un método para añadir una carta a la mano. 
+También puedes agregar un método para determinar cuál es la carta más alta en la mano.
+
+Crea una clase FootballStudio que contenga el juego principal. Esta clase debería tener un mazo de cartas, 
+
+dos manos (una para el equipo de local y otra para el equipo de visitante) y una variable para almacenar la apuesta del jugador.
+También debería tener métodos para recibir la apuesta del jugador, repartir las cartas, comparar las cartas y determinar el resultado,
+y pagar las ganancias a las apuestas ganadoras.
